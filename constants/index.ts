@@ -97,7 +97,7 @@ export const SOCIALS = [
   {
     name: "GitHub",
     icon: RxGithubLogo,
-    link: "https://github.com",
+    link: "https://github.com/dev-wizard-commits",
   },
 ] as const;
 
@@ -453,5 +453,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/dev-wizard-commits",
 };
