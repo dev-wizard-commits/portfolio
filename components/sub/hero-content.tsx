@@ -47,12 +47,23 @@ export const HeroContent = () => {
           I am a skilled Full Stack Developer with over 10 years of experience in building web applications, including SaaS, CRM, e-commerce, and Fintech platforms, primarily using JavaScript and PHP. I excel in both frontend and back-end development, making me effective at contributing to any part of the development process. I take pride in my ability to solve problems creatively and consistently strive for the highest quality in every project I undertake.
         </motion.p>
 
-        <motion.a
+        <motion.div
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="flex gap-4 mt-4"
         >
-          Learn more
-        </motion.a>
+          <a
+            href="#projects"
+            className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg hover:scale-105 transition-transform"
+          >
+            View Projects
+          </a>
+          <a
+            href="#contact"
+            className="py-2 px-6 border border-[#7042f88b] text-white cursor-pointer rounded-lg hover:bg-[#7042f88b] transition-all"
+          >
+            Contact Me
+          </a>
+        </motion.div>
       </div>
 
       <motion.div
