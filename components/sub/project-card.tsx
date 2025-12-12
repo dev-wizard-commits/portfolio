@@ -25,13 +25,14 @@ export const ProjectCard = ({
       rel="noreferrer noopener"
       className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] bg-[#0300145e] backdrop-blur-sm hover:border-[#b49bff] transition-all duration-300 group"
     >
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden h-64 bg-[#030014]">
         <Image
           src={src}
           alt={title}
           width={1000}
-          height={1000}
-          className="w-full object-contain group-hover:scale-105 transition-transform duration-300"
+          height={600}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          unoptimized={src.startsWith("http")}
         />
       </div>
 

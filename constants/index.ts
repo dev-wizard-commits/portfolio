@@ -184,12 +184,14 @@ export const OTHER_SKILL = [
   },
 ] as const;
 
+// Using Unsplash Source API for unique project images - each project has a different image
+// To use your actual project screenshots, add them to public/projects/ and update the paths below
 export const PROJECTS = [
   {
     title: "Healthcare Platform",
     description:
       "Developed an innovative healthcare platform catering to patient management and data analytics. Utilized React.js for the front-end to create an intuitive user interface, and .NET for robust backend processing. Implemented AWS services for scalable cloud infrastructure and Lambda for serverless computing, ensuring high availability and cost-efficiency.",
-    image: "/projects/project-1.png",
+    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&q=80",
     link: "#",
     technologies: ["React.js", ".NET", "AWS", "Lambda", "PostgreSQL"],
     features: [
@@ -198,12 +200,13 @@ export const PROJECTS = [
       "Scalable cloud infrastructure",
       "Serverless computing",
     ],
+    category: "Healthcare",
   },
   {
     title: "IoT Platform",
     description:
       "Created an IoT platform that seamlessly integrates with various sensors and devices for real-time data monitoring and analysis. Built with modern web technologies and cloud infrastructure to handle large-scale data processing and device management.",
-    image: "/projects/project-2.png",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&q=80",
     link: "#",
     technologies: ["Node.js", "Express.js", "MongoDB", "AWS", "Docker"],
     features: [
@@ -212,12 +215,13 @@ export const PROJECTS = [
       "Large-scale data processing",
       "Cloud-based infrastructure",
     ],
+    category: "IoT",
   },
   {
     title: "E-commerce MVPs",
     description:
       "Worked on three Minimum Viable Products (MVPs) for emerging e-commerce startups. Focused on performance optimization, implementing best practices in code efficiency and database management to speed up the applications. Used CI/CD pipelines to automate testing and deployment processes.",
-    image: "/projects/project-3.png",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop&q=80",
     link: "#",
     technologies: ["React.js", "Node.js", "MongoDB", "Stripe", "CI/CD"],
     features: [
@@ -226,6 +230,142 @@ export const PROJECTS = [
       "Payment integration",
       "Automated deployment",
     ],
+    category: "E-commerce",
+  },
+  {
+    title: "SaaS CRM Platform",
+    description:
+      "Built a comprehensive Customer Relationship Management (CRM) system for enterprise clients. Implemented advanced features including lead management, sales pipeline tracking, automated workflows, and comprehensive reporting. Designed with scalability in mind to handle thousands of concurrent users.",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["Vue.js", "Node.js", "PostgreSQL", "GraphQL", "Redis"],
+    features: [
+      "Lead management system",
+      "Sales pipeline tracking",
+      "Automated workflows",
+      "Advanced analytics dashboard",
+    ],
+    category: "SaaS",
+  },
+  {
+    title: "Fintech Payment Gateway",
+    description:
+      "Developed a secure payment processing platform with multi-currency support and fraud detection. Integrated with major payment providers and implemented real-time transaction monitoring. Built with security-first approach, including PCI-DSS compliance and end-to-end encryption.",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["React.js", "Nest.js", "PostgreSQL", "Stripe", "AWS"],
+    features: [
+      "Multi-currency support",
+      "Fraud detection system",
+      "Real-time transaction monitoring",
+      "PCI-DSS compliant",
+    ],
+    category: "Fintech",
+  },
+  {
+    title: "Real-time Analytics Dashboard",
+    description:
+      "Created a powerful analytics dashboard with real-time data visualization and custom reporting. Implemented WebSocket connections for live updates and built interactive charts using D3.js. Supports multiple data sources and provides export functionality for reports.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["Angular", "Node.js", "MongoDB", "WebSocket", "D3.js"],
+    features: [
+      "Real-time data visualization",
+      "Interactive charts and graphs",
+      "Custom report generation",
+      "Multi-source data integration",
+    ],
+    category: "Analytics",
+  },
+  {
+    title: "Mobile E-commerce App",
+    description:
+      "Developed a cross-platform mobile application for e-commerce using React Native. Implemented features like product browsing, shopping cart, user authentication, and push notifications. Optimized for performance and integrated with payment gateways for seamless checkout experience.",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["React Native", "Node.js", "MongoDB", "Firebase", "Stripe"],
+    features: [
+      "Cross-platform mobile app",
+      "Product catalog & search",
+      "Shopping cart & checkout",
+      "Push notifications",
+    ],
+    category: "Mobile",
+  },
+  {
+    title: "API Gateway & Microservices",
+    description:
+      "Architected and implemented a microservices-based system with API gateway for routing and authentication. Built scalable services using Docker and Kubernetes for orchestration. Implemented service discovery, load balancing, and centralized logging for better observability.",
+    image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["Node.js", "Express.js", "Docker", "Kubernetes", "GraphQL"],
+    features: [
+      "Microservices architecture",
+      "API gateway implementation",
+      "Service discovery & load balancing",
+      "Container orchestration",
+    ],
+    category: "Backend",
+  },
+  {
+    title: "Content Management System",
+    description:
+      "Built a flexible CMS platform with role-based access control, content versioning, and multi-language support. Implemented a plugin architecture for extensibility and provided RESTful APIs for content delivery. Optimized for SEO and performance with caching strategies.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["PHP", "Laravel", "MySQL", "Redis", "Vue.js"],
+    features: [
+      "Role-based access control",
+      "Content versioning",
+      "Multi-language support",
+      "Plugin architecture",
+    ],
+    category: "CMS",
+  },
+  {
+    title: "Task Management Platform",
+    description:
+      "Created a collaborative task management platform with real-time updates, team collaboration features, and project tracking. Implemented drag-and-drop functionality, file attachments, comments, and notifications. Built with focus on user experience and productivity.",
+    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["React.js", "Express.js", "MongoDB", "Socket.io", "Material-UI"],
+    features: [
+      "Real-time collaboration",
+      "Drag-and-drop interface",
+      "File attachments & comments",
+      "Project tracking & reporting",
+    ],
+    category: "Productivity",
+  },
+  {
+    title: "Social Media Analytics Tool",
+    description:
+      "Developed a comprehensive social media analytics platform that aggregates data from multiple platforms. Provides sentiment analysis, engagement metrics, competitor analysis, and automated reporting. Built with machine learning capabilities for trend prediction.",
+    image: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["Next.js", "Python", "Django", "PostgreSQL", "TensorFlow"],
+    features: [
+      "Multi-platform data aggregation",
+      "Sentiment analysis",
+      "Engagement metrics tracking",
+      "ML-based trend prediction",
+    ],
+    category: "Analytics",
+  },
+  {
+    title: "Video Streaming Platform",
+    description:
+      "Built a video streaming platform with adaptive bitrate streaming, live broadcasting capabilities, and video on demand. Implemented CDN integration for global content delivery and user authentication with subscription management. Optimized for low latency and high quality.",
+    image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop&q=80",
+    link: "#",
+    technologies: ["React.js", "Node.js", "AWS", "CloudFront", "FFmpeg"],
+    features: [
+      "Adaptive bitrate streaming",
+      "Live broadcasting",
+      "Video on demand",
+      "CDN integration",
+    ],
+    category: "Media",
   },
 ] as const;
 
