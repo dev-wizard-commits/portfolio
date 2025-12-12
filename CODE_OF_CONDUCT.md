@@ -1,4 +1,4 @@
-# Code of Conduct - Space Portfolio
+# Code of Conduct - Milan Kremic Portfolio
 
 ## Our Pledge
 

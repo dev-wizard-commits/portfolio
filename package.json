@@ -1,5 +1,5 @@
 {
-  "name": "space-portfolio",
+  "name": "milan-kremic-portfolio",
   "version": "1.0.1",
   "private": true,
   "scripts": {
@@ -13,13 +13,13 @@
     "email": "milankremic8@gmail.com",
     "url": "https://github.com/milan-kremic"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "Welcome to my full stack Next.js 14 milan kremic portfolio.",
   "keywords": [
     "reactjs",
     "nextjs",
     "vercel",
     "react",
-    "space-portfolio",
+    "milan-kremic-portfolio",
     "portfolio",
     "react-icons",
     "cn",
@@ -48,11 +48,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/milan-kremic/space-portfolioit"
+    "url": "https://github.com/milan-kremic/milan-kremic-portfolio"
   },
-  "homepage": "https://github.com/milan-kremic/space-portfolio#readme",
+  "homepage": "https://github.com/milan-kremic/milan-kremic-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/milan-kremic/space-portfolio/issues",
+    "url": "https://github.com/milan-kremic/milan-kremic-portfolio/issues",
     "email": "milankremic8@gmail.com"
   },
   "funding": [

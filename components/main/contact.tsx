@@ -75,9 +75,9 @@ export const Contact = () => {
           variants={slideInFromRight(0.3)}
           className="bg-[#0300145e] backdrop-blur-sm border border-[#7042f88b] rounded-lg p-6"
         >
-          <h2 className="text-2xl font-bold text-white mb-6">Let's Work Together</h2>
+          <h2 className="text-2xl font-bold text-white mb-6">Let&apos;s Work Together</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
-            I'm always open to discussing new projects, creative ideas, or opportunities 
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities 
             to be part of your visions. Whether you have a question or just want to say hi, 
             feel free to reach out!
           </p>

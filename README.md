@@ -1,16 +1,16 @@
 <a name="readme-top"></a>
 
-# Modern Space Theme Portfolio using Next.js 14 and Three.js
+# Milan Kremic Portfolio using Next.js 14 and Three.js
 
-![Modern Space Theme Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Modern Space Theme Portfolio using Next.js 14 and Three.js")
+![Milan Kremic Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Milan Kremic Portfolio using Next.js 14 and Three.js")
 
 [![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/milan-kremic/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/space-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/space-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/milan-kremic/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/space-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/milan-kremic/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/space-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/milan-kremic/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/space-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/milan-kremic/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/space-portfolio/pulls "GitHub pull requests")
+[![GitHub license](https://flat.badgen.net/github/license/milan-kremic/milan-kremic-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/milan-kremic-portfolio/blob/main/LICENSE "GitHub license")
+[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/milan-kremic-portfolio/commits/main "Maintenance")
+[![GitHub branches](https://flat.badgen.net/github/branches/milan-kremic/milan-kremic-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/milan-kremic-portfolio/branches "GitHub branches")
+[![Github commits](https://flat.badgen.net/github/commits/milan-kremic/milan-kremic-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/milan-kremic-portfolio/commits "Github commits")
+[![GitHub issues](https://flat.badgen.net/github/issues/milan-kremic/milan-kremic-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/milan-kremic-portfolio/issues "GitHub issues")
+[![GitHub pull requests](https://flat.badgen.net/github/prs/milan-kremic/milan-kremic-portfolio?icon=github&color=black&scale=1.01)](https://github.com/milan-kremic/milan-kremic-portfolio/pulls "GitHub pull requests")
 [![Netlify Status](https://api.netlify.com/api/v1/badges/451ed0e0-3541-474e-896a-4987e30a7722/deploy-status)](https://spaceportfolio.netlify.app/ "Netlify Status")
 
 <!-- Table of Contents -->
@@ -44,7 +44,7 @@
 Here is the folder structure of this app.
 
 ```bash
-space-portfolio/
+milan-kremic-portfolio/
   |- app/
     |-- favicon.ico
     |-- globals.css
@@ -117,7 +117,7 @@ space-portfolio/
 
 ## :wrench: Stats
 
-[![Stats for Space Portfolio](/.github/images/stats.svg "Stats for Space Portfolio")](https://pagespeed.web.dev/analysis/https-spaceportfolio-netlify-app/2efbmg117d "Stats for Space Portfolio")
+[![Stats for Milan Kremic Portfolio](/.github/images/stats.svg "Stats for Milan Kremic Portfolio")](https://pagespeed.web.dev/analysis/https-spaceportfolio-netlify-app/2efbmg117d "Stats for Milan Kremic Portfolio")
 
 ## :raised_hands: Contribute
 
@@ -125,7 +125,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 ## :gem: Acknowledgements
 
-Useful resources and dependencies that are used in Space Portfolio.
+Useful resources and dependencies that are used in Milan Kremic Portfolio.
 
 - [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.1.1
 - [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^9.93.0
@@ -156,7 +156,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 ## :rocket: Follow Me
 
 [![GitHub followers](https://img.shields.io/github/followers/milan-kremic?style=social&label=Follow&maxAge=2592000)](https://github.com/milan-kremic "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fmilan-kremic%2Fspace-portfolio "Tweet")
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fmilan-kremic%2Fmilan-kremic-portfolio "Tweet")
 [![YouTube](https://img.shields.io/youtube/channel/subscribers/UCNAz_hUVBG2ZUN8TVm0bmYw)](https://www.youtube.com/@OPGAMER. "Subscribe my YouTube Channel")
 
 ## :books: Learn More
@@ -180,11 +180,11 @@ You can also give this repository a star to show more people and they can use th
 
 ## :star2: Star History
 
-<a href="https://star-history.com/#milan-kremic/space-portfolio&Timeline">
+<a href="https://star-history.com/#milan-kremic/milan-kremic-portfolio&Timeline">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=milan-kremic/space-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=milan-kremic/space-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=milan-kremic/space-portfolio&type=Timeline" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=milan-kremic/milan-kremic-portfolio&type=Timeline&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=milan-kremic/milan-kremic-portfolio&type=Timeline" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=milan-kremic/milan-kremic-portfolio&type=Timeline" />
 </picture>
 </a>
 
