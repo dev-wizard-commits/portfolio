@@ -6,8 +6,8 @@ type ProjectCardProps = {
   title: string;
   description: string;
   link: string;
-  technologies?: string[];
-  features?: string[];
+  technologies?: readonly string[];
+  features?: readonly string[];
 };
 
 export const ProjectCard = ({
